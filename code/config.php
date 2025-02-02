@@ -47,10 +47,10 @@ return [
     'db' => [
         'driver' => getenv('DB_DRIVER') ?: 'mysql',
         'dsn' => getenv('DB_DSN'),
-        'host' => getenv('DB_HOST') ?: 'localhost',
+        'host' => getenv('DB_HOST') ?: 'rm-uf61l73e93vg4uvguyo.mysql.rds.aliyuncs.com',
         'database' => getenv('DB_DATABASE') ?: 'shorturl',
-        'user' => getenv('DB_USER') ?: 'root',
-        'password' => getenv('DB_PASSWORD') ?: '',
+        'user' => getenv('DB_USER') ?: 'zenia_sa',
+        'password' => getenv('DB_PASSWORD') ?: 'iPS7bS!P',
     ],
 
     /**
